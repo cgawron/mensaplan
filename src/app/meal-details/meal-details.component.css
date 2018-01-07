@@ -1,0 +1,19 @@
+table {
+    width: 80%;
+}
+
+td {
+    text-align: initial;
+}
+
+td.label {
+    width: 5em;
+}
+
+td input {
+    width: 30em;
+}
+
+td img {
+    height: 24px;
+}

@@ -1,0 +1,21 @@
+<div *ngIf="meal">
+    <h2>Details zum Gericht</h2>
+    <table>
+        <tr>
+            <td class="label">Menü:</td>
+            <td><img src="assets/icon-menue-{{meal.id}}.png" /></td>
+        </tr>
+        <tr>
+            <td class="label">Gericht:</td>
+            <td><input [(ngModel)]="meal.name" placeholder="name" /></td>
+        </tr>
+        <tr>
+            <td class="label">Art:</td>
+            <td>
+                <select [(ngModel)]="meal.art">
+            <option *ngFor="let art of ['rind', 'schwein', 'vegetarisch']" [ngValue]="art">{{art}}</option>
+          </select>
+            </td>
+        </tr>
+    </table>
+</div>

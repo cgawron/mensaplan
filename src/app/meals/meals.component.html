@@ -1,0 +1,14 @@
+<table class="meals">
+    <tr>
+        <th>Menü</th>
+        <th class="left">Gericht</th>
+        <th>Art</th>
+    </tr>
+    <tr *ngFor="let meal of meals" [class.selected]="meal === selectedMeal" (click)="onSelect(meal)">
+        <td><img src="assets/icon-menue-{{meal.id}}.png" /></td>
+        <td class="left">{{meal.name}}</td>
+        <td><img src="assets/icon-{{meal.art}}.png" /></td>
+    </tr>
+</table>
+
+<app-meal-details [meal]="selectedMeal"></app-meal-details>
