@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { Meal } from '../meal';
 
 @Component({
