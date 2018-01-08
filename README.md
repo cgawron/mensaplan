@@ -1,6 +1,7 @@
 # Mensaplan
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3. 
+You can view the live site on [https://cgawron.github.io/mensaplan/](https://cgawron.github.io/mensaplan/).
 
 ## Prereqs
 Verify you have at least *node 6.9.x* and *npm 3.x.x* installed by running `node -v`and `npm -v`.
