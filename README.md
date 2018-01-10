@@ -1,7 +1,7 @@
 # Mensaplan
 
 This is a small sample application for Angular showing a menu. You can click on the meals and edit the details of the meals.
-You can view the live site on [https://cgawron.github.io/mensaplan/](https://cgawron.github.io/mensaplan/).
+You can view the live site on [https://cgawron.github.io/mensaplan/](https://cgawron.github.io/mensaplan/) or try running it yourself using the instructions below.
 
 ## Prereqs
 Verify you have at least *node 6.9.x* and *npm 3.x.x* installed by running `node -v`and `npm -v`.
