@@ -1,6 +1,6 @@
 # Mensaplan
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3. 
+This is a small sample application for Angular showing a menu. You can click on the meals and edit the details of the meals.
 You can view the live site on [https://cgawron.github.io/mensaplan/](https://cgawron.github.io/mensaplan/).
 
 ## Prereqs
